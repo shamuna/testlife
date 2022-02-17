@@ -1,0 +1,153 @@
+@import url("https://p.typekit.net/p.css?s=1&k=gwr5yru&ht=tk&f=36122.36123.36130.36138.36146.36147&a=87175616&app=typekit&e=css");
+
+@font-face {
+font-family:"minion-3-display";
+src:url("https://use.typekit.net/af/657e60/00000000000000003b9b0da6/27/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/657e60/00000000000000003b9b0da6/27/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/657e60/00000000000000003b9b0da6/27/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+body{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+.one{
+    width:100%;
+    height:400px;
+    background-image: url("hero.jpg");
+
+    background-size: cover;
+}
+.side{
+  margin-left: 800px;
+  padding:5px;
+  align-content: center;
+
+
+}
+.side img{
+    width:80%;
+    height: 200px;
+}
+.text, .side h5 {
+    margin-left: 130px;
+}
+.two{
+    display:flex;
+    width:100%;
+    height:400px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.twoone{
+    display:flex;
+    width:50%;
+    background-color: #c3b69c;
+    margin-right: 20px;
+}
+.two img{
+    width: 350px;
+    height:350px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding:15px;
+}
+.twotwo{
+    width:50%;
+    background-color: #ad9781;
+
+}
+.twotwo img{
+    float:right;
+}
+.cardtext{
+    align-items: center;
+    width: 300px;
+    height:350px;
+    margin-top: 70px;
+    margin-right: 10px;
+    padding:15px;
+}
+.three{
+   background-color:  #929979;
+   width:100%;
+   height:250px;
+   display:flex;
+   justify-content: flex-end;
+  margin-top: 15px;
+}
+.three img{
+    width:200px;
+    height:200px;
+    padding: 30px;
+   
+
+}
+.cardtext{ font-family: "minion-3-display",serif; }
+.hovertext{
+    margin-top: -150px;
+    margin-left: 60px;
+    Display:none;
+}
+.threepic:hover .hovertext{
+ 
+        display:block;
+    
+
+}
+#popup{
+    width: 50vw;
+    height:50vh;
+    background-color:  #929979;
+    display:none;
+   
+    position: absolute;
+   margin-left: 270px;
+   margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0,0,0, 0.1);
+    padding: 30px;
+    color:black;
+    
+}
+.most{
+ 
+  width:100%;
+    opacity: 1;
+   position: relative;
+  animation: mymove 0.5s ;
+  animation-delay: 1s;
+}
+@keyframes mymove {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  .most2{
+   
+   
+    width:100%;
+    position: relative;
+   animation: mymove2 1s ;
+   animation-delay: 1.5s;
+  
+ }
+ @keyframes mymove2 {
+from{left: -150px;}
+    to{left:0px;}
+  
+  }
+  .most3{
+    bottom: 0px;
+    
+    width:100%;
+    position: relative;
+   animation: mymove3 .3s ;
+   animation-delay: 2.5s;
+  
+ }
+ @keyframes mymove3 {
+    from {bottom: -150px;}
+    to {bottom:0px;}
+  }
+  .mostitems{
+      align-items:center ;
+      padding: 5px;
+  }
